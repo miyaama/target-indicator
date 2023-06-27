@@ -1,0 +1,31 @@
+.progressBar {
+  width: 119px;
+  height: 13px;
+  background-color: #cecece;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+}
+
+.progressBarFill {
+  position: relative;
+  height: 7px;
+  background-color: #0489d1;
+  transition: width 0.3s ease-in-out;
+}
+
+.progressBarInfo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: -4px;
+  bottom: -23px;
+  font-size: 10px;
+  align-items: center;
+}
+
+.arrowIcon {
+  width: 10px;
+  height: 7px;
+}
+
